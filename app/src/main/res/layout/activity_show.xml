@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dell.trackmytrain.ShowActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/show_toolbar"
+        layout="@layout/app_bar_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mRecyclerView"
+        android:scrollbars="vertical"
+        android:layout_below="@id/show_toolbar"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

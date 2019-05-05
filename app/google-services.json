@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "799220981578",
+    "firebase_url": "https://trackmytrain-a8472.firebaseio.com",
+    "project_id": "trackmytrain-a8472",
+    "storage_bucket": "trackmytrain-a8472.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799220981578:android:28fb46707628caa6",
+        "android_client_info": {
+          "package_name": "com.example.dell.trackmytrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799220981578-50kb4gld7iokihb5929nf9a85k8sp6a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.trackmytrain",
+            "certificate_hash": "85773f1c13ffe375bd3d4b0e13d26f3eef86c762"
+          }
+        },
+        {
+          "client_id": "799220981578-gbqaj7dug6u1pk7o77j7047g4l60obpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAnHVB6jOCrQfB72xhu81iZEpStiQOFDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799220981578-gbqaj7dug6u1pk7o77j7047g4l60obpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

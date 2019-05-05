@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/drawer_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/enable_tracking"
+            android:title="Enable Tracking"
+            android:icon="@drawable/ic_source"
+
+            />
+        <item
+            android:id="@+id/drawer_signup_btn"
+            android:title="Sign Up"
+            android:icon="@drawable/ic_register"
+            />
+        <item
+            android:id="@+id/drawer_login_btn"
+            android:title="Login"
+            android:icon="@drawable/ic_login"
+
+            />
+        <item
+            android:id="@+id/drawer_settings_btn"
+            android:title="Account Settings"
+            android:icon="@drawable/ic_settings"
+            />
+        <item
+            android:id="@+id/drawer_logout_btn"
+            android:title="@string/log_out"
+            android:icon="@drawable/ic_logout"
+            />
+    </group>
+</menu>
