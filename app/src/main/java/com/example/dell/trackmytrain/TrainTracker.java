@@ -95,7 +95,7 @@ String getURL(LatLng location1,LatLng location2)
 {
     String source=location1.latitude+","+location1.longitude;
     String destination=location2.latitude+","+location2.longitude;
-    return "https://maps.googleapis.com/maps/api/directions/json?origin="+source+"&destination="+destination+"&key=AIzaSyAZDlcfKVu5XzW9dVsvJdLRvftlFGLduVM";
+    return "https://maps.googleapis.com/maps/api/directions/json?origin="+source+"&destination="+destination+"&key=GOOGLE_API_KEY";
 
 }
 private String requestDirection(String reqUrl) throws IOException {
